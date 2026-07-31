@@ -1,0 +1,17 @@
+.popcorn-board-link{
+display:inline-flex;
+align-items:center;
+gap:10px;
+margin-top:10px;
+font-weight:600;
+text-decoration:none;
+color:#1f5a35;
+transition:.2s;
+}
+.popcorn-board-link:hover{opacity:.85;}
+.popcorn-board-logo{
+height:22px;
+width:auto;
+display:block;
+border-radius:4px;
+}
