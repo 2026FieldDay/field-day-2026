@@ -114,6 +114,14 @@
     border:2px solid #c9a227;
     box-shadow:0 10px 22px rgba(201,162,39,.18);
 }
+.host-card:hover{
+    border-color:#d4af37;
+    box-shadow:
+        0 0 0 2px rgba(212,175,55,.45),
+        0 14px 30px rgba(212,175,55,.35);
+    transform:translateY(-3px);
+    transition:all .25s ease;
+}
 
 .host-badge{
     position:absolute;
@@ -133,11 +141,4 @@
     line-height:1.2;
     text-align:center;
 }
-.host-card:hover{
-    border-color:#d4af37;
-    box-shadow:
-        0 0 0 2px rgba(212,175,55,.45),
-        0 14px 30px rgba(212,175,55,.35);
-    transform:translateY(-3px);
-    transition:all .25s ease;
-}
+
