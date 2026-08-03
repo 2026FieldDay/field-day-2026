@@ -127,9 +127,17 @@
     border-radius:999px;
 
     font-size:10px;
-    font-weight:700;
+    font-weight:800;          /* was 700 */
     letter-spacing:1px;
     text-transform:uppercase;
-
-    line-height:1;
+    line-height:1.2;
+    text-align:center;
+}
+.host-card:hover{
+    border-color:#d4af37;
+    box-shadow:
+        0 0 0 2px rgba(212,175,55,.45),
+        0 14px 30px rgba(212,175,55,.35);
+    transform:translateY(-3px);
+    transition:all .25s ease;
 }
