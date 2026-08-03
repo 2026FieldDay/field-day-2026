@@ -107,3 +107,29 @@
     max-width: 300px;
     line-height: 1.5;
 }}
+/* ---------- 2026 Physical Host ---------- */
+
+.host-card{
+    position:relative;
+    border:2px solid #c9a227;
+    box-shadow:0 10px 22px rgba(201,162,39,.18);
+}
+
+.host-badge{
+    position:absolute;
+    top:12px;
+    right:12px;
+
+    background:#c9a227;
+    color:#fff;
+
+    padding:5px 10px;
+    border-radius:999px;
+
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+
+    line-height:1;
+}
