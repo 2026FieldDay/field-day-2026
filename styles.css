@@ -298,4 +298,35 @@
     grid-template-columns: 1fr;
   }
 }
+/* HEADER QR CODE */
+.nav-qr {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-right: 4px;
+}
+
+.nav-qr img {
+  width: 48px !important;
+  height: 48px !important;
+  max-width: 48px !important;
+  object-fit: contain;
+  background: #fff;
+}
+
+.nav-qr span {
+  font-size: 10px;
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+/* Hide QR utility on smaller screens */
+@media (max-width: 1050px) {
+  .nav-qr {
+    display: none;
+  }
+}
 
