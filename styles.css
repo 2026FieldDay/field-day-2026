@@ -167,9 +167,9 @@
 }
 
 .arrival-heading {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   font-family: "Oswald", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.14em;
   color: #b17a00;
@@ -184,14 +184,14 @@
 }
 
 .arrival-block p {
-  margin: 0 0 8px;
-  color: #56625c;
-  font-size: 14px;
-  line-height: 1.45;
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .arrival-small {
-  font-size: 13px !important;
+  font-size: 1rem !important;
 }
 
 .arrival-map {
@@ -221,17 +221,17 @@
 
 .arrival-row strong {
   display: block;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   color: #176038;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .arrival-row span {
   display: block;
-  color: #56625c;
-  font-size: 13px;
-  line-height: 1.4;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 @media (max-width: 700px) {
