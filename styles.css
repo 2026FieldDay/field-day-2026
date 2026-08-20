@@ -145,3 +145,16 @@
     line-height:1.2;
     text-align:center;
 }
+.map-card-wide {
+  grid-column: 1 / -1;
+  max-width: 760px;
+  justify-self: center;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .map-card-wide {
+    grid-column: auto;
+    max-width: 100%;
+    justify-self: stretch;
+  }
+}
