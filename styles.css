@@ -244,16 +244,36 @@
     max-width: 230px;
   }
 }
+/* Golf note directly beneath Golf Scramble */
+.golf-note {
+  margin: 16px 0 0 !important;
+  padding-top: 14px;
+  border-top: 1px solid #d9ddd9;
+  font-size: 14px !important;
+  line-height: 1.55 !important;
+  font-style: italic;
+  color: #66736f !important;
+}
+
 /* Welcome Social food & beverage details */
 .social-details {
-  margin-top: 8px;
+  margin-top: 18px;
+}
+
+.social-details h4 {
+  margin: 0 0 8px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #0f2d52;
 }
 
 .social-details p {
-  margin: 0 0 6px;
-  font-size: 14px;
-  line-height: 1.45;
-  color: #66736f;
+  margin: 0 0 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--muted);
 }
 
 .social-details p:last-child {
