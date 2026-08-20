@@ -341,9 +341,7 @@
   border-top: none !important;
 }
 
-/* Divider between Upon Arrival and Tuesday program */
-.arrival-info + .timeline-item {
-  border-top: 1px solid #d9ddd9;
-  padding-top: 28px;
-  margin-top: 28px;
+/* Divider between Upon Arrival and Tuesday activities */
+.golf-item {
+  border-top: 1px solid #d9ddd8;
 }
