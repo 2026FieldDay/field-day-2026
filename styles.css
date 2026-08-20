@@ -325,4 +325,14 @@
     display: none;
   }
 }
+.arrival-address {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
 
+.arrival-address:hover {
+  color: var(--green);
+}
