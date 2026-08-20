@@ -163,7 +163,6 @@
 .arrival-info {
   margin: 24px 24px 22px;
   padding-top: 20px;
-  border-top: 1px solid #d9ddd8;
 }
 
 .arrival-heading {
@@ -335,4 +334,15 @@
 
 .arrival-address:hover {
   color: var(--green);
+}
+/* No divider above Upon Arrival */
+.arrival-info {
+  border-top: none !important;
+}
+
+/* Divider between Upon Arrival and Tuesday program */
+.arrival-info + .timeline-item {
+  border-top: 1px solid #d9ddd9;
+  padding-top: 28px;
+  margin-top: 28px;
 }
