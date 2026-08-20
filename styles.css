@@ -244,3 +244,18 @@
     max-width: 230px;
   }
 }
+/* Welcome Social food & beverage details */
+.social-details {
+  margin-top: 8px;
+}
+
+.social-details p {
+  margin: 0 0 6px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #66736f;
+}
+
+.social-details p:last-child {
+  margin-bottom: 0;
+}
