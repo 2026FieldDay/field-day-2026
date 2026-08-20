@@ -162,7 +162,8 @@
 
 .arrival-info {
   margin: 24px 24px 22px;
-  padding-top: 20px;
+  padding-top: 0;
+  border-top: none !important;
 }
 
 .arrival-heading {
