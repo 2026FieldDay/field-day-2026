@@ -259,3 +259,23 @@
 .social-details p:last-child {
   margin-bottom: 0;
 }
+/* KEEP TUESDAY + WEDNESDAY AGENDA SIDE BY SIDE */
+#agenda .day-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  align-items: start;
+}
+
+#agenda .day-card {
+  min-width: 0;
+  width: 100%;
+}
+
+/* Only stack the agenda on genuinely small/mobile screens */
+@media (max-width: 700px) {
+  #agenda .day-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
