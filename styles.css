@@ -490,3 +490,52 @@
 .post-event-survey-cta .button {
   display: inline-block;
 }
+/* Hero logo + post-event survey */
+.hero-logo-survey-row {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 28px;
+}
+
+.hero-logo-survey-row .hero-logo {
+  margin: 0;
+}
+
+.hero-survey-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+
+  background: #f5a800;
+  color: #0f2d52;
+
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+
+  text-decoration: none;
+  border-radius: 4px;
+  white-space: nowrap;
+
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.hero-survey-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+@media (max-width: 650px) {
+  .hero-logo-survey-row {
+    gap: 16px;
+    align-items: center;
+  }
+
+  .hero-survey-button {
+    padding: 11px 15px;
+    font-size: 15px;
+  }
+}
