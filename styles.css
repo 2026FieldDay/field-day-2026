@@ -475,3 +475,18 @@
     font-size: 13px;
   }
 }
+/* Post-event survey callout */
+.post-event-survey-cta {
+  margin: 26px 0 28px;
+  padding: 22px 24px;
+  border-left: 5px solid #f5a800;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.post-event-survey-cta p {
+  margin: 0 0 16px;
+}
+
+.post-event-survey-cta .button {
+  display: inline-block;
+}
